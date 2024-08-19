@@ -3,4 +3,4 @@ Real-time head tracking sensor in MRI
 
 ## Schematic
 
-![Alt](CushionSchematic/.png)
+![Alt](images/CushionSchematic.png)
