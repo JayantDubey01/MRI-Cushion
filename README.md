@@ -25,10 +25,6 @@ To test the filter, two VNAs are used to corroborate the effect of each filter. 
 
 4) Follow steps 1-3, for DC frequency range of 1Hz-10KHz.
 
-### Analysis
-
-The ideal frequency response would show a notch or lowpass filter near 128Mhz. The attenuation should be around -40 decibels or more. The complex impedance would also show a phase shift of -90 degrees indicating the filter is seen as an open circuit at 128MHz. 
-
 ## NanoVNA Results Analysis:
 
 ### CH0/CH1 - Log magnitude of the input reflection coefficient
@@ -63,7 +59,7 @@ Ideal Behavior:
 
 2) Run simulations of all possible configurations with LTSpice
 
-3) Setup Arduino for RF switching
+3) Setup Arduino for RF switching: Mfr #: ADG904BRUZ-R, datasheet: 
 
 ## Data Transmission
 
