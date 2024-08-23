@@ -31,25 +31,25 @@ The ideal frequency response would show a notch or lowpass filter near 128Mhz. T
 
 ## NanoVNA Results Analysis:
 
-1) CH0/CH1 - Log magnitude of the input reflection coefficient
+### CH0/CH1 - Log magnitude of the input reflection coefficient
 
 The Log Magnitude of Input Reflection Coefficient for channel S11 and S21 have different meanings. S11 measures how much the signal is reflected back from the filter's input. S21 measures how much of the signal is transmitted through the filter's input. 
 
-Ideal Behavior: 
+  Ideal Behavior: 
 
   1) S11 should have a very low reflection coefficient (in the negatives) for the passband. In the stopband, it should have a high, positive magnitude.
 
   2) S21 should be ~0dB in the passband, and very negative in the stopband
 
-2) Smith chart of the complex impedance
+### Smith chart of the complex impedance
 
 A visual representation of the filter's impedance as a function of frequency. R +jX shows the resistive and complex impedance. Useful for impedance matching.
 
-Ideal Behavior:
+  Ideal Behavior:
 
   1) In the passband, it should have ~50ohm and very little complex impedance. In the stopband, the resistive and complex impedance should deviate significantly.  
 
-3) SWR
+### SWR
 
 The Standing Wave Ratio is another metric of impedance matching. It is the ratio of the reflected and transmitted power. 
 
