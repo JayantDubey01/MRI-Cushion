@@ -45,14 +45,9 @@ A visual representation of the filter's impedance as a function of frequency. R 
 
   1) In the passband, it should have ~50ohm and very little complex impedance. In the stopband, the resistive and complex impedance should deviate significantly.  
 
-### SWR
 
-The Standing Wave Ratio is another metric of impedance matching. It is the ratio of the reflected and transmitted power. 
-
-Ideal Behavior:
-
-  1) A SWR of 1:1 means perfect matching. This should occur in the passband. As the SWR increases, it means more power is being reflected which should occur near the stopband frequencies. 
-
+![Alt](images/5T_1.jpeg)
+5th order T-Type
 
 
 ## ToDo
